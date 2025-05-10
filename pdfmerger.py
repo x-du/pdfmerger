@@ -13,7 +13,7 @@ def merge_pdfs(pdf_list, output_filename):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python pdfmerger.py <folder_path>")
+        print("Usage: python pdfmerger.py <folder_path>")   
         sys.exit(1)
         
     pdf_folder = sys.argv[1]
